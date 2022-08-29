@@ -1,0 +1,23 @@
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+}
+.main-box{
+display: grid;
+grid-template-columns: repeat(20,1fr);
+grid-template-rows: repeat(20,1fr);
+width: 600px;
+height: 600px;
+}
+
+.box{
+    border: 1px solid #ccc;
+}
+.food{
+    background-color: gold;
+}
+.snake{
+    background-color: blue;
+}
